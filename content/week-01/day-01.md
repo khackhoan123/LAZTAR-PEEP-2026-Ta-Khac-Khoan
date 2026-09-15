@@ -56,3 +56,9 @@ weight = 1
 ## Next Plan
 - Practice complete Git Flow lifecycle on a sandbox repo (branch creation, PR creation, code review, merge, and simulated conflict resolution).
 - Prepare workspace and continue onboarding tasks for Day 02.
+
+## Practice Screenshots
+
+![Git Basic Operations](/images/day01/git-basic.png)
+
+![Git Stash and Merge Conflict Resolution](/images/day01/git-conflict.png)

@@ -42,60 +42,23 @@ weight = 1
 | Hủy hợp nhất và bắt đầu lại               | Nhập biểu tượng Source Control ở thanh bên, rồi nhập menu "..." và chọn "Abort Merge"              |
 | Giải quyết xung đột trong trình soạn thảo | Xung đột được đánh dấu bằng màu sắc, chỉnh sửa thủ công hoặc sử dụng giao diện giải quyết xung đột |
 
----
+## Công việc đã hoàn thành
+- Thiết lập các công cụ giao tiếp và quản lý công việc của nhóm: Slack, Taiga.
+- Clone repository mẫu của chương trình trainee, cài đặt Hugo Extended (`v0.166.0`), và khởi tạo trang ghi chép cá nhân.
+- Cấu hình file `config.toml` (cập nhật `baseURL` và `author`) khớp với repository cá nhân `khackhoan123/LAZTAR-PEEP-2026-Ta-Khac-Khoan`.
+- Triển khai (deploy) trang ghi chép tĩnh lên GitHub Pages thông qua quy trình tự động hóa GitHub Actions.
+- Ôn tập và thực hành các lệnh Git cốt lõi, quy trình giải quyết xung đột mã nguồn (merge conflict).
 
-### TypeScript
+## Khó khăn gặp phải & Hướng giải quyết
+- **Vấn đề:** Không thể cài đặt Hugo qua công cụ quản lý gói của Windows (`winget install Hugo.Hugo.Extended`) do môi trường máy chưa nhận diện lệnh `winget` (`'winget' is not recognized`).
+- **Giải quyết:** Chuyển sang phương án tự động hóa qua PowerShell: tải trực tiếp bản nén nhị phân chính thức (`hugo_extended_0.166.0_windows-amd64.zip`) từ GitHub Releases, giải nén vào `C:\Users\takha\bin`, và thêm thư mục này vào biến môi trường `PATH` của người dùng. Sau đó xác nhận cài đặt thành công với lệnh `hugo version`.
 
-#### Interface vs Type
+## Kế hoạch tiếp theo
+- Hoàn thiện thực hành toàn bộ chu trình Git Flow trên repository nháp (tạo nhánh, tạo PR, review, merge và giả lập xử lý conflict).
+- Chuẩn bị môi trường làm việc và tiếp tục các nội dung đào tạo cho Ngày 02.
 
-- `interface` chủ yếu dùng để định nghĩa cấu trúc object và hỗ trợ kế thừa thông qua `extends`.
-- `type` linh hoạt hơn và có thể định nghĩa object, union, tuple, kiểu primitive và kiểu function.
-- Cả hai đều có thể dùng để mô tả cấu trúc object trong TypeScript.
+## Hình ảnh thực hành
 
-#### Union Type
+![Các thao tác Git cơ bản](/images/day01/git-basic.png)
 
-- Cho phép một biến nhận nhiều kiểu hoặc nhiều giá trị khác nhau.
-- Sử dụng toán tử `|` (OR).
-
-#### Omit Utility Type
-
-- Tạo một type mới bằng cách loại bỏ một hoặc nhiều thuộc tính từ type gốc.
-- Thường dùng để tái sử dụng model hoặc ẩn các field không cần thiết.
-
-#### Extends
-
-- Dùng để kế thừa thuộc tính từ interface khác.
-- Giúp tái sử dụng code và giảm lặp lại thuộc tính.
-
----
-
-### ESLint
-
-#### Purpose of ESLint
-
-- Công cụ static code analysis cho JavaScript/TypeScript.
-- Giúp phát hiện lỗi và cảnh báo trước khi chạy chương trình.
-- Đảm bảo code tuân thủ coding convention của dự án.
-
-#### Common Errors and Warnings
-
-- `no-unused-vars`: Biến khai báo nhưng không sử dụng.
-- `no-undef`: Sử dụng biến chưa khai báo.
-- `react-hooks/rules-of-hooks`: Sử dụng Hook sai quy tắc.
-- `react-hooks/exhaustive-deps`: Thiếu dependency trong `useEffect`.
-- `no-magic-numbers`: Sử dụng số hard-code không có ý nghĩa rõ ràng.
-
-## Lessons Learned
-
-- Tránh **"magic number"**
-- Tránh commit node_modules.
-- Hiểu sự khác biệt giữa merge và rebase.
-- Sử dụng git add <file> thay vì git add . khi có thể.
-
-## Key Principles
-
-- Tổ chức `src/` theo tính năng hoặc loại
-- Tách các tệp cấu hình ở mức gốc
-- Luôn thêm `node_modules/` và `dist/` vào `.gitignore`
-- Sử dụng tên thư mục rõ ràng và mô tả
-- Nhóm các tệp liên quan lại với nhau để dễ dàng điều hướng
+![Thực hành Stash và xử lý Merge Conflict](/images/day01/git-conflict.png)
