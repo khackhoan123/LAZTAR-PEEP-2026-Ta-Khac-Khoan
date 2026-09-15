@@ -1,5 +1,5 @@
 +++
-title = "Ngày 01 - 15/06/2026"
+title = "Ngày 01 - 15/09/2026"
 weight = 1
 +++
 
@@ -41,6 +41,8 @@ weight = 1
 | Giữ lại thay đổi từ nhánh đến             | Di chuột qua dấu xung đột và nhập nút "Accept Incoming Change"                                     |
 | Hủy hợp nhất và bắt đầu lại               | Nhập biểu tượng Source Control ở thanh bên, rồi nhập menu "..." và chọn "Abort Merge"              |
 | Giải quyết xung đột trong trình soạn thảo | Xung đột được đánh dấu bằng màu sắc, chỉnh sửa thủ công hoặc sử dụng giao diện giải quyết xung đột |
+
+---
 
 ## Công việc đã hoàn thành
 - Thiết lập các công cụ giao tiếp và quản lý công việc của nhóm: Slack, Taiga.

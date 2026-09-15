@@ -42,6 +42,8 @@ weight = 1
 | Cancel the merge                 | Open Source Control, use the `...` menu, then choose `Abort Merge`  |
 | Resolve conflicts manually       | Review the marked conflict blocks and keep the correct final code   |
 
+---
+
 ## Tasks Completed
 - Set up communication and project management tools: Slack, Taiga.
 - Cloned the trainee template repository, set up Hugo Extended (`v0.166.0`), and initialized the personal notes site.
