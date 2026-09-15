@@ -1,4 +1,4 @@
-baseURL = "https://HuyMinhDev.github.io/LAZTAR-PEEP/"
+baseURL = "https://khackhoan123.github.io/LAZTAR-PEEP-2026-Ta-Khac-Khoan/"
 relativeURLs = true
 canonifyURLs = true
 publishDir = "public"
@@ -12,7 +12,7 @@ home = [ "HTML", "RSS", "JSON" ]
   themeVariant = "laztar"
   editURL = ""
   description = "Notes for the first Product Engineering Experience Program phase at Công ty trách nhiệm hữu hạn LAZTAR - Phần Mềm & Giải Pháp Số (Software & Digital)."
-  author = "HuyMinhDev"
+  author = "khackhoan123"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
