@@ -1,5 +1,5 @@
 +++
-title = "Day 01 - 15/06/2026"
+title = "Day 01 - 15/09/2026"
 weight = 1
 +++
 
@@ -42,58 +42,17 @@ weight = 1
 | Cancel the merge                 | Open Source Control, use the `...` menu, then choose `Abort Merge`  |
 | Resolve conflicts manually       | Review the marked conflict blocks and keep the correct final code   |
 
-### TypeScript
+## Tasks Completed
+- Set up communication and project management tools: Slack, Taiga.
+- Cloned the trainee template repository, set up Hugo Extended (`v0.166.0`), and initialized the personal notes site.
+- Configured repository settings in `config.toml` (`baseURL` and `author`) matching personal GitHub repository `khackhoan123/LAZTAR-PEEP-2026-Ta-Khac-Khoan`.
+- Deployed the static notes site to GitHub Pages using automated GitHub Actions workflow.
+- Reviewed core Git commands, conflict resolution workflow, and TypeScript/ESLint principles.
 
-#### Interface vs Type
+## Difficulties & Solutions
+- **Issue:** Failed to install Hugo using Windows Package Manager (`winget install Hugo.Hugo.Extended`) due to missing `winget` environment on the machine (`'winget' is not recognized`).
+- **Solution:** Switched to a manual PowerShell automation approach: downloaded the official binary package (`hugo_extended_0.166.0_windows-amd64.zip`) from GitHub Releases, extracted it to `C:\Users\takha\bin`, and appended the directory to the Windows User `PATH` environment variable. Verified successfully with `hugo version`.
 
-- Use `interface` when the main goal is to describe object structure and support inheritance.
-- Use `type` when the shape is more complex, such as a union, tuple, primitive alias, or function type.
-- Both are valid for object modeling, so choose the one that fits the use case and team convention.
-
-#### Union Type
-
-- A union type allows a value to have more than one possible type.
-- It uses the `|` operator.
-
-#### Omit Utility Type
-
-- `Omit` creates a new type by removing one or more properties from an existing type.
-- It is useful when reusing a model but hiding fields that are not needed.
-
-#### Extends
-
-- `extends` lets an interface inherit properties from another interface.
-- It reduces duplication and keeps related types consistent.
-
----
-
-### ESLint
-
-#### Purpose of ESLint
-
-- ESLint is a static analysis tool for JavaScript and TypeScript.
-- It helps detect errors and warnings before runtime.
-- It keeps code aligned with project conventions.
-
-#### Common Errors and Warnings
-
-- `no-unused-vars`: a variable is declared but not used.
-- `no-undef`: a variable is used before it is defined.
-- `react-hooks/rules-of-hooks`: React Hooks are used in the wrong place.
-- `react-hooks/exhaustive-deps`: a `useEffect` dependency is missing.
-- `no-magic-numbers`: a hard-coded number is used without clear meaning.
-
-## Lessons Learned
-
-- Avoid **"magic numbers"**.
-- Do not commit `node_modules`.
-- Understand the difference between merge and rebase.
-- Use `git add <file>` instead of `git add .` when possible.
-
-### Key Principles
-
-- Organize `src/` by feature or by file type.
-- Keep configuration files at the project root.
-- Always add `node_modules/` and `dist/` to `.gitignore`.
-- Use clear and descriptive folder names.
-- Group related files together for easier navigation.
+## Next Plan
+- Practice complete Git Flow lifecycle on a sandbox repo (branch creation, PR creation, code review, merge, and simulated conflict resolution).
+- Prepare workspace and continue onboarding tasks for Day 02.
