@@ -64,3 +64,11 @@ weight = 1
 ![Git Basic Operations](/images/day01/git-basic.png)
 
 ![Git Stash and Merge Conflict Resolution](/images/day01/git-conflict.png)
+
+#### Merge Conflict Handling via VS Code
+
+- **Conflict Detected:** VS Code highlights conflicting lines between `HEAD` and `feature/login` with inline resolution actions.
+![VS Code Conflict Detected](/images/day01/vscode-conflict.png)
+
+- **Conflict Resolved:** Cleaned up conflict markers and accepted incoming changes (`return true;`).
+![VS Code Conflict Resolved](/images/day01/vscode-resolved.png)

@@ -64,3 +64,11 @@ weight = 1
 ![Các thao tác Git cơ bản](/images/day01/git-basic.png)
 
 ![Thực hành Stash và xử lý Merge Conflict](/images/day01/git-conflict.png)
+
+#### Xử lý xung đột (Merge Conflict) trên VS Code
+
+- **Phát hiện xung đột:** Trình soạn thảo VS Code đánh dấu rõ vùng xung đột giữa nhánh `HEAD` và nhánh `feature/login` kèm các tùy chọn xử lý nhanh (`Accept Current Change`, `Accept Incoming Change`,...).
+![Phát hiện xung đột trên VS Code](/images/day01/vscode-conflict.png)
+
+- **Đã giải quyết xung đột:** Áp dụng lựa chọn nhận thay đổi từ nhánh merge (`Accept Incoming Change`), loại bỏ toàn bộ thẻ đánh dấu xung đột và hoàn thiện cú pháp.
+![Xử lý xung đột hoàn tất trên VS Code](/images/day01/vscode-resolved.png)
