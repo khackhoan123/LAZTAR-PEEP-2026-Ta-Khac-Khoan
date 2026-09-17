@@ -1,5 +1,5 @@
 +++
-title = "Day 03 - 17/09/2026 (onsite)"
+title = "Day 03 - 17/09/2026 (On-site)"
 weight = 3
 +++
 
