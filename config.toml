@@ -10,6 +10,7 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [params]
   themeVariant = "laztar"
+  titleSeparator = ":"
   editURL = ""
   description = "Notes for the first Product Engineering Experience Program phase at Công ty trách nhiệm hữu hạn LAZTAR - Phần Mềm & Giải Pháp Số (Software & Digital)."
   author = "khackhoan123"
