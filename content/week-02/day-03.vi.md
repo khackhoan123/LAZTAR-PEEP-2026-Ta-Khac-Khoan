@@ -77,3 +77,7 @@ weight = 3
 - **Kiểm soát phiên bản:** Quản lý mã nguồn chặt chẽ trên GitHub thông qua phân tách nhánh tính năng và các commit rõ ràng theo chuẩn Conventional Commits.
 - **Tự động hóa Build & Deploy:** Liên kết trực tiếp repository với Vercel Edge Network, thiết lập pipeline tự động chạy kiểm tra kiểu dữ liệu (`tsc --noEmit`) và tối ưu hóa gói bundle (`npm run build`) trước khi phát hành.
 - **Kết quả nghiệm thu:** Toàn bộ hệ thống chính thức hoạt động ổn định trên môi trường Production toàn cầu, hỗ trợ cơ chế tự động re-deploy liên tục mỗi khi cập nhật mã nguồn mới.
+
+- **Đường dẫn sản phẩm chính thức (Live Production URLs):**
+  - **3D Brand Experience (Landing Page):** [https://laztar-peep-portfolio.vercel.app](https://laztar-peep-portfolio.vercel.app)
+  - **Engineer Portfolio System:** [https://laztar-peep-portfolio.vercel.app/portfolio](https://laztar-peep-portfolio.vercel.app/portfolio)

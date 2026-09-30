@@ -81,3 +81,7 @@ weight = 3
 - **Version Control Discipline:** Structured repository history on GitHub following strict feature branch separation and standardized Conventional Commit messages.
 - **Automated Verification & Edge Deployment:** Integrated the repository with the Vercel Edge Network, establishing automated pipeline gates that enforce strict TypeScript compilation verification (`tsc --noEmit`) and bundle optimization (`npm run build`) prior to promotion.
 - **Delivery Verification:** Production build verified with continuous zero-downtime deployments triggered on each authenticated merge event.
+
+- **Live Production Deployment Endpoints:**
+  - **3D Spatial Brand Landing Page:** [https://laztar-peep-portfolio.vercel.app](https://laztar-peep-portfolio.vercel.app)
+  - **Software Engineer Portfolio Console:** [https://laztar-peep-portfolio.vercel.app/portfolio](https://laztar-peep-portfolio.vercel.app/portfolio)
