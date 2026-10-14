@@ -3,7 +3,7 @@ title = "Ngày 05 - 09/10/2026 (On-site)"
 weight = 5
 +++
 
-## BÁO CÁO TIẾN ĐỘ: KIỂM TOÁN CHỐT MỐC DEMO SPRINT 0, CHUẨN HÓA MA TRẬN 45 PERMISSIONS & HỢP NHẤT AUDIT LOG
+## BÁO CÁO TIẾN ĐỘ: KIỂM TOÁN CHỐT MỐC DEMO PROJECT, CHUẨN HÓA MA TRẬN 45 PERMISSIONS & HỢP NHẤT AUDIT LOG
 
 ---
 
